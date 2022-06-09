@@ -1,0 +1,23 @@
+type WhitelistProof @model @auth(rules: [{ allow: public }]) {
+  id: ID!
+  proof: [String!]
+}
+
+type NftAttribute {
+  trait_type: String!
+  value: String!
+  display_type: String
+}
+
+type NFT @model @auth(rules: [{ allow: public }]) {
+  id: ID!
+  token_id: ID!
+  name: String!
+  image: String!
+  description: String!
+  external_url: String
+  attributes: [NftAttribute]
+  background_color: String
+  animation_url: String
+  youtube_url: String
+}

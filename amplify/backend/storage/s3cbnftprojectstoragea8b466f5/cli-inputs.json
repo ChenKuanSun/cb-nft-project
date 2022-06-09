@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3cbnftprojectstoragea8b466f5",
+  "bucketName": "cb-nft-project-storage-a8b466f5",
+  "policyUUID": "fe76ba4a",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "READ"
+  ]
+}

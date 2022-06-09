@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "cbnftproject",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "angular",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "dist/cb-nft-project",
+      "BuildCommand": "npm run-script build",
+      "StartCommand": "ng serve"
+    }
+  }
+}

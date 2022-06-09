@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/signature": {
+      "name": "/signature",
+      "lambdaFunction": "cbsignature",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

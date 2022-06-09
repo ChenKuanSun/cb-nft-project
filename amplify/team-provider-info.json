@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cbnftproject-staging-150740-authRole",
+      "UnauthRoleArn": "arn:aws:iam::970522660089:role/amplify-cbnftproject-staging-150740-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::970522660089:role/amplify-cbnftproject-staging-150740-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-cbnftproject-staging-150740-deployment",
+      "UnauthRoleName": "amplify-cbnftproject-staging-150740-unauthRole",
+      "StackName": "amplify-cbnftproject-staging-150740",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:970522660089:stack/amplify-cbnftproject-staging-150740/e7f5f820-e805-11ec-b5ff-0224cc087c2a",
+      "AmplifyAppId": "d16ttodwkeuen1"
+    },
+    "categories": {
+      "function": {
+        "cbsignature": {
+          "deploymentBucketName": "amplify-cbnftproject-staging-150740-deployment",
+          "s3Key": "amplify-builds/cbsignature-4338344b6f6c41782f71-build.zip"
+        }
+      },
+      "auth": {
+        "cbnftproject": {}
+      }
+    }
+  }
+}
